@@ -1,0 +1,146 @@
+.body{
+    padding:0;
+    margin:0;
+    background:rgb(236, 173, 255);
+    font-family: 'Architects Daughter';
+    font-size:20px;
+}
+
+.main-container{
+    width:95%;
+    margin:auto;
+}
+
+.container1{
+    margin-left:5%;
+    margin-top:1%;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-left:12%;
+}
+
+.container3{
+    display:none;
+    position:absolute;
+    top:26%;
+    left:40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 19px 0px black;
+    outline:none;
+    border:none;
+    width:300px;
+    height:300px;
+    padding:35px 15px;
+    resize: none;
+    background:rgb(255, 247, 222);
+}
+
+svg{
+    color:gray;
+    transform:scale(1.7);
+    cursor:pointer;
+}
+
+#check-icon{
+    position:absolute;
+    right:17%;
+    top:4%;
+}
+
+#x-icon{
+    position:absolute;
+    right:5%;
+    top:4%;
+}
+
+.main-heading{
+    font-size:60px;
+    font-weight:900;
+    text-align:center;
+    color:rgb(114, 0, 89);
+    text-decoration:underline;
+    font-style:oblique;
+}
+
+
+
+.StickyCard{
+    height:300px;
+    width:300px;
+    box-shadow:4px 10px 15px black;
+    margin-top:10px;
+    overflow:hidden;
+}
+
+.StickyCardDesign1{
+    margin:-2px;
+    background:rgb(179, 255, 0);
+    transform:rotate(-4deg);
+}
+.StickyCardDesign2{
+    margin:4px;
+    background:rgb(0, 238, 247);
+    transform:rotate(-5deg);
+}
+.StickyCardDesign3{
+    margin:9px;
+    background:rgb(255, 91, 91);
+    transform:rotate(5deg);
+}
+.StickyCardDesign4{
+    margin:-10px;
+    background:rgb(255, 187, 0);
+    transform:rotate(0deg);
+}
+.StickyCardDesign5{
+    margin:20px;
+    background:rgb(202, 69, 255);
+    transform:rotate(10deg);
+}
+.StickyCardDesign6{
+    margin:10px;
+    background:#00ff88;
+    transform:rotate(-8deg);
+}
+
+#note-remove{
+    position:absolute;
+    margin-left:90%;
+    top:15px;
+}
+
+
+
+.card-heading{
+    text-align:center;
+    font-weight:900;
+}
+.card-text{
+    font-size:24px;
+}
+
+#button{
+    background:rgb(97, 0, 100);
+    border:0px;
+    border-radius:10px;
+    height:50px;
+    width:150px;
+}
+#button:hover{
+    background:white;
+    color:black;
+    border:2px solid black;
+}
+
+
+
+.card-date{
+    text-align:center;
+}
